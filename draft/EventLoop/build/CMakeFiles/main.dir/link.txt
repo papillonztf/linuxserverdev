@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread  -rdynamic CMakeFiles/main.dir/test1.cpp.o CMakeFiles/main.dir/source/EventLoop.cpp.o  -o ../main 

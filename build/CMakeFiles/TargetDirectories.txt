@@ -1,0 +1,3 @@
+/home/zitengfei/program/linux服务器开发/build/CMakeFiles/rebuild_cache.dir
+/home/zitengfei/program/linux服务器开发/build/CMakeFiles/main.dir
+/home/zitengfei/program/linux服务器开发/build/CMakeFiles/edit_cache.dir

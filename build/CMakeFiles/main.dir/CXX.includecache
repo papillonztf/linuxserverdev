@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zitengfei/program/linux服务器开发/draft/EventLoop/include/EventLoop.h
+atomic
+-
+thread
+-
+iostream
+-
+sstream
+-
+assert.h
+-
+poll.h
+-
+
+/home/zitengfei/program/linux服务器开发/draft/EventLoop/source/EventLoop.cpp
+EventLoop.h
+/home/zitengfei/program/linux服务器开发/draft/EventLoop/source/EventLoop.h
+
+/home/zitengfei/program/linux服务器开发/draft/EventLoop/test1.cpp
+EventLoop.h
+/home/zitengfei/program/linux服务器开发/draft/EventLoop/EventLoop.h
+iostream
+-
+unistd.h
+-
+
