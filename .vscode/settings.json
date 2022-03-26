@@ -2,7 +2,8 @@
     "files.associations": {
         "thread": "cpp",
         "ostream": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "iostream": "cpp"
     },
     "cmake.sourceDirectory": "${workspaceFolder}/draft/EventLoop"
 }

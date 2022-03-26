@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/zitengfei/program/linux服务器开发/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/zitengfei/program/linux服务器开发/draft/EventLoop/include   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread   -o CMakeFiles/main.dir/test1.cpp.o -c /home/zitengfei/program/linux服务器开发/draft/EventLoop/test1.cpp",
-  "file": "/home/zitengfei/program/linux服务器开发/draft/EventLoop/test1.cpp"
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/zitengfei/program/linux服务器开发/draft/EventLoop/include   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread   -o CMakeFiles/main.dir/negativeTest1.cpp.o -c /home/zitengfei/program/linux服务器开发/draft/EventLoop/negativeTest1.cpp",
+  "file": "/home/zitengfei/program/linux服务器开发/draft/EventLoop/negativeTest1.cpp"
 },
 {
   "directory": "/home/zitengfei/program/linux服务器开发/build",

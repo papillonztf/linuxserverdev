@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/test1.cpp.o"
+  "CMakeFiles/main.dir/negativeTest1.cpp.o"
   "CMakeFiles/main.dir/source/EventLoop.cpp.o"
   "/home/zitengfei/program/linux服务器开发/draft/EventLoop/main.pdb"
   "/home/zitengfei/program/linux服务器开发/draft/EventLoop/main"

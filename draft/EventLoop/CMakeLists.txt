@@ -6,7 +6,9 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x -g -Wall -O0 -Wno-unused-vari
 
 #主程序(测试)源文件
 set(main
-./test1.cpp
+#./positiveTest1.cpp
+./negativeTest1.cpp
+#./negativeTest2.cpp
 )
 
 #递归指定目录的所有源文件 

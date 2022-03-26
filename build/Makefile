@@ -123,6 +123,33 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+negativeTest1.o: negativeTest1.cpp.o
+
+.PHONY : negativeTest1.o
+
+# target to build an object file
+negativeTest1.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/negativeTest1.cpp.o
+.PHONY : negativeTest1.cpp.o
+
+negativeTest1.i: negativeTest1.cpp.i
+
+.PHONY : negativeTest1.i
+
+# target to preprocess a source file
+negativeTest1.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/negativeTest1.cpp.i
+.PHONY : negativeTest1.cpp.i
+
+negativeTest1.s: negativeTest1.cpp.s
+
+.PHONY : negativeTest1.s
+
+# target to generate assembly for a file
+negativeTest1.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/negativeTest1.cpp.s
+.PHONY : negativeTest1.cpp.s
+
 source/EventLoop.o: source/EventLoop.cpp.o
 
 .PHONY : source/EventLoop.o
@@ -150,33 +177,6 @@ source/EventLoop.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/EventLoop.cpp.s
 .PHONY : source/EventLoop.cpp.s
 
-test1.o: test1.cpp.o
-
-.PHONY : test1.o
-
-# target to build an object file
-test1.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test1.cpp.o
-.PHONY : test1.cpp.o
-
-test1.i: test1.cpp.i
-
-.PHONY : test1.i
-
-# target to preprocess a source file
-test1.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test1.cpp.i
-.PHONY : test1.cpp.i
-
-test1.s: test1.cpp.s
-
-.PHONY : test1.s
-
-# target to generate assembly for a file
-test1.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test1.cpp.s
-.PHONY : test1.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... main"
 	@echo "... edit_cache"
+	@echo "... negativeTest1.o"
+	@echo "... negativeTest1.i"
+	@echo "... negativeTest1.s"
 	@echo "... source/EventLoop.o"
 	@echo "... source/EventLoop.i"
 	@echo "... source/EventLoop.s"
-	@echo "... test1.o"
-	@echo "... test1.i"
-	@echo "... test1.s"
 .PHONY : help
 
 
